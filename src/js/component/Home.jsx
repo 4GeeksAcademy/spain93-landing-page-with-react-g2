@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar } from "./Navbar.jsx";
 import { Jumbotron } from "./Jumbotron.jsx";
+import { Footer } from "./Footer.jsx";
 
 //create your first component
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
 		<div className="text-center">
 			<Navbar/>
 			<Jumbotron />
+			<Footer/>
 		</div>
 	);
 };
