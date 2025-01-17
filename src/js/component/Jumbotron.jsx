@@ -3,7 +3,7 @@ import React from "react";
 export const Jumbotron = () => {
 
     return (
-        <div className="position-relative p-5 text-center text-muted bg-body border border-dashed rounded-5">
+        <div className="position-relative p-5 text-muted bg-body border border-dashed rounded-5">
             {/* <svg className="bi mt-5 mb-3" width="48" height="48"></svg> */}
             <h1 className="text-body-emphasis">A WARM WELCOME!</h1>
             <p className="col-lg-6 mb-4">
